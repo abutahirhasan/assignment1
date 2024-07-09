@@ -6,10 +6,10 @@ ul,
 li {
 	margin: 0;
 	padding: 0;
-    list-style: none;
+	list-style: none;
 }
-a{
-    text-decoration: none;
+a {
+	text-decoration: none;
 }
 
 /*------ Font Initial ------*/
@@ -32,7 +32,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-    padding: 36px 150px;
+	padding: 36px 150px;
 }
 header h4 {
 	font-size: 28px;
@@ -46,5 +46,58 @@ header .header-btn {
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 600;
+	transition: all 0.4s;
+}
+header .header-btn:hover {
+	background: #0d1321;
+	color: #fff;
 }
 /*------ Header ------*/
+
+/*------ Hero ------*/
+.hero-section {
+	background: url(../img/Hero-bg.png) no-repeat center center;
+	background-size: cover;
+	padding: 26px 0 46px;
+}
+.hearo-content {
+	max-width: 998px;
+	text-align: center;
+	margin: 0 auto;
+}
+.hearo-content .hero-thumb {
+	margin-bottom: 32px;
+}
+.hearo-content .hero-title {
+	color: #0d1321;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 68px;
+	margin-bottom: 24px;
+}
+.hearo-content p {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+    color: #0d1321;
+    display: block;
+    margin-bottom: 32px;
+}
+.hearo-content .hero-btn {
+	padding: 21px 24px;
+	border-radius: 8px;
+	background: #0d1321;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	transition: all 0.4s;
+	text-align: center;
+    color: #fff;
+    display: inline-block;
+}
+.hearo-content .header-btn:hover {
+	background: rgba(255, 76, 30, 0.05);
+}
+/*------ Hero ------*/

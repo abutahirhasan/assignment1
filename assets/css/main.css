@@ -97,6 +97,9 @@ header .header-btn:hover {
 	color: #fff;
 	display: inline-block;
 }
+.hearo-content .hero-btn:hover {
+	background: #FF4C1E;
+}
 .hearo-content .header-btn:hover {
 	background: rgba(255, 76, 30, 0.05);
 }
@@ -287,7 +290,7 @@ header .header-btn:hover {
 	content: "";
 	border-radius: 16px;
 	background: rgba(0, 0, 0, 0.582);
-        z-index: -1;
+	z-index: -1;
 }
 .support-section .support-wrapper {
 	max-width: 630px;
@@ -300,10 +303,10 @@ header .header-btn:hover {
 	line-height: 36px;
 	margin-bottom: 16px;
 	color: #fff;
-    text-align: center;
+	text-align: center;
 }
 .support-wrapper p {
-    text-align: center;
+	text-align: center;
 	color: #fff;
 	font-size: 16px;
 	font-style: normal;
@@ -324,12 +327,12 @@ header .header-btn:hover {
 	background: #fff;
 	border-radius: 8px;
 	color: rgba(13, 19, 33, 0.4);
-    text-align: start;
+	text-align: start;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-    text-align: start !important;
+	text-align: start !important;
 }
 ::placeholder {
 	color: rgba(13, 19, 33, 0.4);
@@ -342,16 +345,16 @@ header .header-btn:hover {
 	line-height: normal;
 }
 .support-wrapper form button {
-   padding: 14px 20px;
-   border: unset;
-   outline: none;
-   background: #fff;
-   border-radius: 12px;
-   color: #0D1321;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+	padding: 14px 20px;
+	border: unset;
+	outline: none;
+	background: #fff;
+	border-radius: 12px;
+	color: #0d1321;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
 }
 /*------ Footer Support Section ------*/
 
